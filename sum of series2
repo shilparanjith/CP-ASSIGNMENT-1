@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+      {
+            int n,sum=0,fact=1;
+            printf("Enter the limit : ");
+            scanf("%d",&n);
+            for(int i=1;i<=n;i++)
+            {
+                  fact*=i;
+                  sum+=i/fact;
+            }
+            printf("\nThe sum of series = %d",sum);
+      }
