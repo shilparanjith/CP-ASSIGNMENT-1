@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+    {
+        float a[50],mean,variance,std,sum=0,sums=0;
+        int n,i;
+        printf("Enter the limit : ");
+        scanf("%d",&n);
+        printf("\nEnter the numbers : ");
+        for(i=0;i<n;i++)
+           {
+                scanf("%f",&a[i]);
+                sum+=a[i];
+           }
+        mean'sum/n;
+        for(i=0;i<n;i++)
+           {
+                sums+=pow((a[i]-mean),2);
+           }
+        variance=sums/n;
+        std=sqrt(variance);
+        printf("\nMean : %f",mean);
+        printf("\nVariance : %f",variance);
+        printf("\nStandard deviation : %f",std);
+    }
+        
+        
+        
