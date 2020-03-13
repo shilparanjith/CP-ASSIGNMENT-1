@@ -13,7 +13,7 @@ void main()
                   for(int j=1;j<=i;j++)
                         fact*=j;
                   sum+=(pow(x,i)/fact)*s;
-                  s*=-1;
+                  s*=(-1);
              }
           printf("\nThe sum of cosine series = %f",sum);
      }
