@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+    {
+          int n,sum=0;
+          printf("\nEnter the limit : ");
+          scanf("%d",&n);
+          for(int i=1;i<=n;i++)
+             {
+                sum+=pow(i,2);
+             }
+          printf("\nThe sum of series = %d ",sum);
+     }
