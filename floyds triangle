@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+    {
+        int r,num=1;
+        printf("Enter the number of in floyds tiangle : ");
+        scanf("%d",&r);
+        for(int i=1;i<=r;i++)
+           {
+                for(int c=1;c<=i;c++)
+                   {
+                        printf("%d",num);
+                        num++
+                   }
+                   printf("\n");
+           } 
+     }             
