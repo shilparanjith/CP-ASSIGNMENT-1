@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+  {
+        float a,b,c,root1,root2;
+        printf("Enter 3 numbers of a^2+bx+c");
+        scanf("%f%f%f",&a,&b,&c);
+        root1=(-b+sqrt((b*b)-(4*a*c))/(2*a));
+        root1=(-b-sqrt((b*b)-(4*a*c))/(2*a));
+        printf("\nThe two roots are : %f\t%f",root1,root2);
+  }
