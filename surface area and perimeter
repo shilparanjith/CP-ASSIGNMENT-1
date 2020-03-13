@@ -1,0 +1,31 @@
+ #include<stdio.h>
+#include<math.h>
+void main()
+    {     
+          int n;
+          float r,l,b,s,t1,t2,t3;
+          printf("1. Circle\n2. Rectangle\n3. Triangle");
+          printf("\nEnter choice : ");
+          scanf("%d",&n);
+          switch(n)
+          {
+                case 1 : printf("\nEnter radius : ");
+                         scanf("%f",&r);
+                         printf("\nSurface Area = %f ",3.14*r*r);
+                         printf("\nPerimeter = %f ",2*3.14*r);
+                         break;
+                case 2 : printf("\nEnter length and breadth : ");
+                         scanf("%f%f",&l,&b);
+                         printf("\nSurface Area = %f ",l*b);
+                         printf("\nPerimeter = %f ",2*(l+b));
+                         break;
+                case 3 : printf("\nEnter sides of triangle : ");
+                         scanf("%f%f%f",&t1,&t2,&t3);
+                         s=(t1+t2+t3)/2;
+                         printf("\nSurface Area = %f ",sqrt((s*(s-a)*(s-b)*(s-c)));
+                         printf("\nPerimeter = %f",t1+t2+t3);
+                         break;
+               default : printf("\n*****ERROR*****");
+           } 
+     }      
+           
