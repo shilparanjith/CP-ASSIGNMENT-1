@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+  {
+        int num,n;
+        printf("Enter the number whose multiplication table is to be found : ");
+        scanf("%d",&num);
+        printf("\nEnter the limit : ");
+        scanf("%d",&n);
+        for(int i=1;i<=n;i++)
+        {
+            printf("%d * %d =%d",num,i,num*i);
+        }
+   }
