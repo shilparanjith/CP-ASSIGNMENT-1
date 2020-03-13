@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+      int uplimit,lowlimit,prime=1;
+      printf("Enter lower limit : ");
+      scanf("%d",&lowlimit);
+      printf("\nEnter upper limit : ");
+      scanf("%d",&uplimit);
+      printf("\nThe prime numbers are : \t");
+      for(int i=lowlimit;i<uplimit;i++)
+          {
+              for(int n=2;n<i/2;n++)
+                 {
+                      if(i%n==0)
+                      {
+                        prime =0;
+                        break;
+                      }
+                      else
+                        printf("\t%d",i);
+                 }
+          }
+ }
+                    
+      
+      
