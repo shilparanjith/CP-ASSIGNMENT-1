@@ -1,0 +1,18 @@
+#include<stdio.h>
+void mian()
+    {
+            int x,y;
+            printf("\nEnter the coordinate : ");
+            scanf("%d%d",&x,&y);
+            if(x>0&&y>0)
+                printf("\nFirst Quadrant ");
+            else if(x<0&&y>0)
+                printf("\nSecond Quadrant ");
+            else if(x<0&&y<0)
+                printf("\nThird Quadrant ");
+            else if(x>0&&y<0)
+                printf("\nFourth Quadrant ");
+            else
+                printf("\nOrigin");
+     }
+                
