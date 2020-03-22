@@ -6,7 +6,7 @@ void main()
           float angle,x;
           printf("\nEnter angle : ");
           scanf("%f",&angle);
-          x=(angle*((22/7)/180))
+          x=(angle*((22/7)/180));
           printf("\nsin(%f)=%f",angle,sin(x));
           printf("\ncos(%f)=%f",angle,cos(x));
     }
