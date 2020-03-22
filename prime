@@ -7,7 +7,7 @@ void main()
       printf("\nEnter upper limit : ");
       scanf("%d",&uplimit);
       printf("\nThe prime numbers are : \t");
-      for(int i=lowlimit;i<uplimit;i++)
+      for(int i=lowlimit;i<=uplimit;i++)
           {
               for(int n=2;n<i/2;n++)
                  {
