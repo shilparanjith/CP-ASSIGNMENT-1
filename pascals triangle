@@ -8,20 +8,22 @@ void main()
  
          for(int i=0; i<r; i++)            
             {
-                for(int n=1;n<=r-i;n++)  
-                printf("\t");
+                for(int n=1;n<=r-i;n++)
+                  {
+                      printf("\t");
  
-                for(int j=0;j<=i;j++)     
-                {
-                    if(j==0||i==0)     
-                      c=1;
-                    else
-                      c=c*(i-j+1)/j; 
-                       printf("%d",c);
-                }
-               printf("\n");
+                      for(int j=0;j<=i;j++)     
+                          {
+                                  if(j==0||i==0)     
+                                         c=1;
+                                  else
+                                         c=c*(i-j+1)/j; 
+                                         printf("%d",c);
+                          }
+                          printf("\n");
+                   }
             }
-    }
+ }
  
     
   
